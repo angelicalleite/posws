@@ -22,4 +22,4 @@ public class ConversorResource {
         String conversao = "Conversão Fahrenheit para Celsius -> " + (valor - 32) / 1.8;
         return Response.status(200).entity(conversao).build();
     }
-} 
+}
